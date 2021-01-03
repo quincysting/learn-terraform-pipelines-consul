@@ -1,9 +1,9 @@
 terraform {
   backend "remote" {
-    organization = "hashicorp-learn"
+    organization = "cloudformationstack"
 
     workspaces {
-      name = "cloudformationstack"
+      name = "learn-terraform-pipelines-consul"
     }
   }
 }
